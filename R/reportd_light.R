@@ -1,3 +1,10 @@
+#' Function for the light theme for GSS reports
+#'
+#' @param ...
+#'
+#' @return a pagedown template
+#' @export
+
 reportd_light <- function(...) {
 
   # CSS
