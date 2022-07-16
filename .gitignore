@@ -3,3 +3,7 @@
 .Rdata
 .httr-oauth
 .DS_Store
+inst/resources/img/._light_front_page.svg
+inst/resources/img/._colorbar.svg
+inst/resources/html/._template_reportdown.html
+._reportdownGSS.Rproj
