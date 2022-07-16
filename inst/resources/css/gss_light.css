@@ -353,7 +353,7 @@ html {
 /* --------------------- Page style ----------------------- */
 /* Add colorbar to all pages (first and last are overriden later) */
 @page {
-  background-image: url(../images/colorbar.svg);
+  background-image: url(../img/colorbar.svg);
   background-position: bottom 0.15in left;
   background-size: contain;
   background-repeat: no-repeat;
@@ -400,7 +400,7 @@ caption {
 @page:first{
   margin: 0 0 0 0;
   background-color: #ffffff;
-  background-image: url(../images/light_front_page.svg);
+  background-image: url(../img/light_front_page.svg);
   background-repeat: no-repeat;
   background-position: right center;
 
