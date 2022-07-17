@@ -4,9 +4,15 @@ Version: 0.0.0.1
 Authors@R: 
     person("Andrew", "Li", , "survey@gss.ubc.ca", role = c("aut", "cre"))
 Description: This package allows the current Graduate Student Society Survey 
-  Coordinator/Data Analyst create reproducible and aesthetically pleasing reports
+  Coordinator/Data Analyst to create reproducible and aesthetically pleasing reports
   without needing to use wysiwyg software.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    pagedown,
+    rmarkdown
