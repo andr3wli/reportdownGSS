@@ -1,5 +1,5 @@
 Package: reportdownGSS
-Title: What the Package Does (One Line, Title Case)
+Title: Easily generate reproducible and aesthetically pleasing GSS reports 
 Version: 0.0.0.1
 Authors@R: 
     person("Andrew", "Li", , "survey@gss.ubc.ca", role = c("aut", "cre"))
