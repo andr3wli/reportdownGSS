@@ -1,8 +1,8 @@
-#' Function for the light theme for GSS reports
+#' Function for the light theme for GSS reports in the form of a RMarkdown file.
 #'
-#' @param ...
+#' @param ... Arguments passed on to pagedown::html_paged
 #'
-#' @return a pagedown template
+#' @return Pagedown template that was designed for creating reports for the Graduate Student Society at UBC.
 #' @export
 
 reportd_light <- function(...) {
