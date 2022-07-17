@@ -2,16 +2,16 @@
 % Please edit documentation in R/reportd_light.R
 \name{reportd_light}
 \alias{reportd_light}
-\title{Function for the light theme for GSS reports}
+\title{Function for the light theme for GSS reports in the form of a RMarkdown file.}
 \usage{
 reportd_light(...)
 }
 \arguments{
-\item{...}{}
+\item{...}{Arguments passed on to pagedown::html_paged}
 }
 \value{
-a pagedown template
+Pagedown template that was designed for creating reports for the Graduate Student Society at UBC.
 }
 \description{
-Function for the light theme for GSS reports
+Function for the light theme for GSS reports in the form of a RMarkdown file.
 }

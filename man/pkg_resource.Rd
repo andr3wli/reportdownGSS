@@ -2,10 +2,16 @@
 % Please edit documentation in R/utils.R
 \name{pkg_resource}
 \alias{pkg_resource}
-\title{Internal function to be used for accessing the CSS/HTML}
+\title{Internal function to be used in the reportdownGSS package - used to access the CSS and HTML files within the reportdownGSS package.}
 \usage{
 pkg_resource(...)
 }
+\arguments{
+\item{...}{Character vector specifying the files within the reportdownGSS package.}
+}
+\value{
+Returns the file paths in resources if it exists.
+}
 \description{
-Internal function to be used for accessing the CSS/HTML
+Internal function to be used in the reportdownGSS package - used to access the CSS and HTML files within the reportdownGSS package.
 }
