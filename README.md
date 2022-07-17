@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/andr3wli/reportdownGSS/workflows/R-CMD-check/badge.svg)](https://github.com/andr3wli/reportdownGSS/actions)
+![](https://img.shields.io/badge/andr3wli-reportdownGSS-brightgreen)
 <!-- badges: end -->
 
 reportdownGSS was created for the [UBC Graduate Student

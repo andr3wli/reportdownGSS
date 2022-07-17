@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 # reportdownGSS
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/andr3wli/reportdownGSS/workflows/R-CMD-check/badge.svg)](https://github.com/andr3wli/reportdownGSS/actions)
+![](https://img.shields.io/badge/andr3wli-reportdownGSS-brightgreen)
 <!-- badges: end -->
 
 reportdownGSS was created for the [UBC Graduate Student Society](https://gss.ubc.ca), specifically to be used be the current Survey Coordinator/Data Analyst to create survey reports. Previously, reports were created with design software (inDesign, illustrator). Click [here](https://gss.ubc.ca/wp-content/uploads/2019/10/GSS.SupervisoryRelationsReport2019-FINAL.pdf) to see a previous report created with Illustrator. There are several issues with using design software. For example, it is not reproducible and not everyone in this role will have access or know how to use such software. RMarkdown was a potential solution, however, the document it produces is very bland and unattractive. It was not appropriate for presenting findings to GSS members and stakeholders across the university.
