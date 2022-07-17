@@ -7,3 +7,5 @@ inst/resources/img/._light_front_page.svg
 inst/resources/img/._colorbar.svg
 inst/resources/html/._template_reportdown.html
 ._reportdownGSS.Rproj
+tests/testthat/rendered/report_light-test.html
+tests/testthat/rendered/._report_light-test.html
