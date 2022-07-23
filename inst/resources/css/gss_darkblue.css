@@ -107,11 +107,10 @@ h3 {
   }
 
 @page {
-
     /* numbering */
     @bottom-right {
         content: counter(page);
-        color: var(--second-color);
+        color: #ffffff;
         border: 5px solid var(--second-color);
         margin-left: 15cm;
         margin-right: -3cm;
@@ -121,6 +120,7 @@ h3 {
         font-size: 14pt;
         font-weight: bold;
         font-family: var(--main-font);
+        background-color: var(--second-color);
     }
 }
 
