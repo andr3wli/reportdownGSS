@@ -1,0 +1,87 @@
+---
+title: "Graduate Student Satisfaction Survey"
+subtitle: "An example of the reportdownGSS package"
+author: "Graduate Student Society, UBC Vancouver"
+date: "2017-2018"
+output:
+  reportdownGSS::reportd_light_v2
+knit: pagedown::chrome_print
+paged-footnotes: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Preamble
+
+Welcome! This is the skeleton for the `reportdownGSS` light theme (version 2) template. This template is meant to look like [this](https://gss.ubc.ca/wp-content/uploads/2019/10/GSS.SupervisoryRelationsReport2019-FINAL.pdf) report. This was created for future UBC Graduate Student Society Survey Coordinators. My name is [Andrew Li](https://www.andrewcli.com) and I am the the Survey Coordinator since January 2022. I noticed that the reports generated had an were either really ugly but reproducible (RMarkdown), ugly and not reproducible (Qualtrics reports), or pretty and not reproducible (design software). As such, this package aims to resolve this issue. Using R and CSS, you are now able to produce aesthetically pleasing reports that are reproducible as well! 
+
+You only need familiarity with R and RMarkdown to use this package/template. No CSS or design knowledge needed, but basic knowledge of HTML may be handy. Happy knitting 😀!
+
+In this template, I will demonstrate all the features this template has to offer. 
+
+# First level header 
+
+This file is what you (Survey Coordinator or anyone) will see when you select the template. Make sure you change the YAML so that it includes the proper title/subtitle. I would suggest you change the author to be "UBC Vancouver". 
+
+## Second level 
+
+This is the second level header. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Et ligula ullamcorper malesuada proin libero nunc consequat. Proin libero nunc consequat interdum varius sit. 
+
+Here is an unordered list:
+
+* item 1 
+* item 2
+  * nested item 1
+  * nested item 2
+* item 3
+
+Here is an ordered list:
+
+1. ordered item 1
+2. ordered item 2
+3. ordered item 3
+
+### Third level 
+
+This is the second level header. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Et ligula ullamcorper malesuada proin libero nunc consequat. Proin libero nunc consequat interdum varius sit. 
+
+#### Forth level 
+
+This is the forth and last level of headers. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Et ligula ullamcorper malesuada proin libero nunc consequat. Proin libero nunc consequat interdum varius sit. 
+
+# Features 
+
+Here, I will show you some of the features provided. 
+
+## Quotes with an emphasis 
+
+<aside>
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+<p class="quote-author">-- Andrew Li,<br> Example Survey</p>
+</aside>
+
+You can make quotes with a strong emphasis. These are good for capturing the readers attention. You need to contain the quote and person that said the quote in the same `aside` tag.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Et ligula ullamcorper malesuada proin libero nunc consequat. Proin libero nunc consequat interdum varius sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Et ligula ullamcorper malesuada proin libero nunc consequat. Proin libero nunc consequat interdum varius sit. 
+
+## Inline quotes 
+
+You can create quotes in line for less of an emphasis. You get to choose between 2 colors: `quote-dark-green` and `quote-light-green`.
+
+<p class="quote-main-color">“Et ligula ullamcorper malesuada proin libero nunc consequat. Proin libero nunc consequat interdum varius sit. ”</p>
+
+<p class="quote-second-color">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Et ligula ullamcorper malesuada proin libero nunc consequat. Proin libero nunc consequat interdum varius sit.”</p>
+
+## Percentages
+
+In previous surveys, the use of percentages to describe the data was very common. This feature allows you to do just that. Add the percentage in the `<stat>` tag and add the summary after it within the `<p>` tag. 
+
+<p class="summary-word"><stat>9%</stat> Et ligula ullamcorper malesuada proin libero nunc consequat.</p>
+<p class="summary-word"><stat>56%</stat> Et ligula ullamcorper malesuada proin libero nunc consequat. </p>
+
+# Conclusion 
+
+As of now, these are all the features you can use when you install this package. Of course, you can do all the other things you typically do in markdown like **bold text**, *italic text*, and `code text`. Please visit this [cheatsheet](https://www.markdownguide.org/cheat-sheet/) for a quick reference to the Markdown syntax.^[This is a footnote]

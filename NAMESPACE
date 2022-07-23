@@ -2,3 +2,4 @@
 
 export(reportd_darkblue)
 export(reportd_light)
+export(reportd_light_v2)
