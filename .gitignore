@@ -10,3 +10,6 @@ inst/resources/html/._template_reportdown.html
 tests/testthat/rendered/report_light-test.html
 tests/testthat/rendered/._report_light-test.html
 man/figures/._gss_light_example.png
+inst/resources/css/._gss_darkblue.css
+inst/resources/img/._gss_blue_green.svg
+tests/testthat/rendered/

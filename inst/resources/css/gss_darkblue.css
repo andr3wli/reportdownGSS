@@ -1,0 +1,218 @@
+/* CSS template for GSS green and blue report */
+/* Creating something simialr to this previous report: https://gss.ubc.ca/wp-content/uploads/2019/10/GSSStudentSurveySummary2018.pdf */
+
+/* -------------------- CSS variables ---------------------- */
+:root {
+    --background: whitesmoke;
+    --color-paper: white;
+    --color-mbox: rgba(0, 0, 0, 0.2);
+    --running-title-width: 2.5in;
+    --screen-pages-spacing: 5mm;
+    --main-color: #008070;
+    --second-color: #144983;
+    --main-font: "Lato";
+    --header-font: "Inter";
+  }
+
+/* ------------------------ Fonts ---------------------------- */
+@import 'https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900';
+@import 'https://fonts.googleapis.com/css?family=Inter';
+
+/* paragraph, unordered list, hyperlinks, and ordered list */
+p, ul, a, ol {
+  font-family: var(--main-font);
+}
+
+/* headers */
+h1, h2, h3, h4 {
+  font-family: var(--header-font);
+}
+
+/* ------------------------ Style ----------------------------- */
+/* YAML headers */
+h1.title, h1.subtitle, h2.author, h2.date {
+    color: #ffffff;
+    position: relative;
+    top: 200px;
+}
+
+h1.title {
+  font-size: 45pt;
+  font-weight: 900;
+  text-align: center;
+}
+
+h1.subtitle {
+  font-size: 25pt;
+  font-weight: bolder;
+  text-align: center;
+  border-bottom:2px solid #ffffff;
+  padding-bottom:3px;
+}
+
+h2.author {
+  font-size: 15pt;
+  text-align: center;
+}
+
+h2.date {
+  font-size: 15pt;
+  text-align: center;
+}
+
+/* regular headers */
+h1 {
+  font-size: 30pt;
+  font-weight: 700;
+  background-color: var(--main-color);
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 18pt;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 14pt;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* --------------------- Cover Page ------------------ */
+/* The first page */
+@page:first{
+  /*margin: 0 0 0 0;*/
+  background-color: #ffffff;
+  background-image: url(../img/gss_blue_green.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+
+  @top-left {
+    content: none;
+  }
+  @top-right {
+    content: none;
+  }
+  @bottom-right {
+    content: none !important;
+  }
+
+  @bottom-right {
+      display: none;
+    }
+}
+
+/* ------------------------ Pages -------------------------- */
+/* page size */
+@page {
+    size: 210mm 297mm;
+  }
+
+@page {
+
+    /* numbering */
+    @bottom-right {
+        content: counter(page);
+        color: var(--second-color);
+        border: 5px solid var(--second-color);
+        margin-left: 15cm;
+        margin-right: -3cm;
+        padding-left: 1cm;
+        padding-right: 3cm;
+        margin-bottom: 1cm;
+        font-size: 14pt;
+        font-weight: bold;
+        font-family: var(--main-font);
+    }
+}
+
+/* ---------------------- Aside ------------------- */
+/* Normal aside - for citations */
+aside {
+    width: 40%;
+    float: right;
+    margin: 0% 0% 0% 1%;
+    color: var(--second-color);
+}
+
+aside > blockquote {
+  margin: 0 .1in 0 .25in;
+}
+
+aside > blockquote > p {
+    margin: 0in 0 0 .1in;
+    font-size: 16pt;
+    font-weight: 400;
+}
+
+.quote-author {
+    margin: .1in 0 .1in .1in;
+    font-size: 10pt;
+    font-weight: 400;
+    text-align: right;
+}
+
+/* summary by statistics (9% of respondants were statisfied with cost of living) */
+
+.summary-number::first-letter {
+  color: var(--second-color);
+  font-size: 35pt;
+  font-weight: bold;
+}
+
+.summary-word {
+  color: var(--second-color);
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+stat {
+  color: var(--second-color);
+  font-size: 35pt;
+  font-weight: bold;
+}
+
+/* Quotes for inside the text */
+.quote-main-color {
+  color: var(--main-color);
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.quote-second-color {
+  color: var(--second-color);
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+/* --------------------- CSS Fragmentation --------------------------- */
+/* page breaks; aka CSS fragmentation */
+.level1 {
+    break-before: page;
+  }
+
+  .section > h1, .section > h2, .section > h3, .section > h4, .section > h5, .section > h6 {
+    break-after: avoid;
+  }
+  .footenotes {
+    break-before: always;
+    break-after: always;
+  }
+  .figure {
+    break-inside: avoid;
+  }
+
+  /* do not break captions */
+  caption {
+    break-inside: avoid;
+    break-after: avoid;
+  }
+
+  /* misc elements */
+  .subtitle span {
+    font-size: .9em;
+  }
+  img {
+    max-width: 100%;
+  }

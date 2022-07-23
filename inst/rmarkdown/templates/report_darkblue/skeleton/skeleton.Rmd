@@ -1,0 +1,100 @@
+---
+title: "Graduate Student Satisfaction Survey"
+subtitle: "Summary Report & Recommendations"
+author: "Graduate Student Society, UBC Vancouver"
+date: "2017-2018"
+output:
+  reportdownGSS::reportd_darkblue
+knit: pagedown::chrome_print
+paged-footnotes: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Summary & Overview 
+
+**NOTE:** This is an example of the template. This is copying this past [survey](https://gss.ubc.ca/wp-content/uploads/2019/10/GSSStudentSurveySummary2018.pdf)
+
+The Graduate Student Society (GSS) conducted its annual Graduate Student Satisfaction Survey in April-May 2018. The aim of this survey was to gauge and analyze the graduate student experience at UBC Vancouver and to better understand what issues GSS needs to address to meet the needs of the students. The study showed that despite the overall satisfaction with the academic and physical environment at UBC students expressed significant concerns about their financial security and mental wellness.
+
+The story in statistics...
+
+<p class="summary-word"><stat>9%</stat> of respondents were satisfied by their cost of living</p>
+<p class="summary-word"><stat>45%</stat> were dissatisfied at the amount of funding that they receive</p>
+<p class="summary-word"><stat>56%</stat> of graduates indicated concerns regarding mental health </p>
+<p class="summary-word"><stat>33%</stat> stated they were under stress due to the financial constraints </p>
+
+The GSS aims to propagate the notion of graduate student well-being as its foremost priority and create policies which better advocate student rights and issues as their representative body.
+
+## Methodology
+
+
+The GSS Annual Survey was completed by 722 graduate students (both in master’s and PhD programs) across the UBC Vancouver campus and was able to record a completion rate of 86%. This survey was circulated to the students through the website as well as a mass email sent to all graduate students. 94% of the respondents were full-time students, with a split of 57-43 in Master-PhD programs. International students made up about 43% of respondents; while the majority of respondents (average 65%) of the survey identified themselves as females.
+
+This brief also analyzes the AMS Survey (2018 Academic Experience Survey Report) which was circulated and compiled in May 2018. Comparing the two allows us to see points of commonality and to identify areas where the graduate student experience differs from the undergraduate.
+This would help GSS to see the common issues highlighted by AMS as well, to strengthen the stance and create policies/strategies which are coherent to the overall student requirements.
+
+# Key Findings 
+
+## Finance & Funding
+
+The biggest apprehension students highlighted in the survey was that of funding their education, housing costs and other financial obligations that rise through their graduate years.
+
+**Access to bursaries and scholarships is the number one concern raised followed closely by Provincial funding.** This echoes the findings of CASA (The Canadian Alliance of Student Associations) who show that 4 in 10 students report financial concerns and mounting debt as the main reason for not continuing education after a bachelors; while 11% of the students default on their student loans after graduating.
+
+As per the UBC estimate calculator, an average monthly expense encountered by a student other
+than the tuition fee is around \$1,500-\$2000; that is if the student lives without any dependents or
+a partner. In comparison the average monthly income of a graduate student is around $1,400. It is
+also important to note that many students earn no monthly income. Only 9% reported themselves satisfied by their cost of living, and only 34% with the amount of funding that they receive, whereas 56% stated they were under stress due to the financial constraints. **1 in every 10 graduate students is considering quitting university due to the soaring expenditure.**
+
+## Housing & Transport 
+
+92% of Master’s students and 83% of Doctoral students live off campus although 74% of the respondents work on campus with 63% using public transport to commute.
+
+This means that the cost and availability of public transport, as well the cost of renting are a particular concern to graduate students (reflected in the large number of students who placed more campus housing as a priority area).
+
+Again, this data is supported by results from the AMS Survey, which showed one-third of students are currently considering transferring to anther university or dropping out completely to find more affordable housing services, while 14% respondents stated they have been left without adequate accommodation at some point during their time at UBC.
+
+## Student Wellbeing 
+
+1 in 3 graduate students through the GSS survey indicated concerns regarding mental health, with respondents attributing this added stress to: academic workload (55%), preparation for life after graduation (50%) and finances (40%). On the other hand, 1 in 4 students feel that they are physically unable to perform in classes. 60% of the respondents claim that they face unhealthy levels of stress, while a majority believe that this negatively effects their academic performance. This is despite the fact that the survey shows that graduate students’ awareness of counseling and well-being services available on campus, has steadily increased over the last 5 years.
+
+# Recommendations for the University 
+
+These recommendations are based on addressing 5 key areas of concern expressed by the students who completed the survey.
+
+<p class="quote-main-color">The University should...</p>
+
+## Coummunity
+
+Work to develop the facilities in Thea Koerner House to make the building a meeting place and a community hub for graduate students. Although Thea’s Lounge and the Penthouse are well used by student groups for events they are not a popular space for socializing or informal study as was intended in the original grant by Leon Koerner.
+
+## Funding & Finance
+
+Allocate more resources for graduate students who are most vulnerable to financial hardship, specifically graduate students with dependents and graduate students with disability.
+
+## Housing 
+
+Work to provide graduate students with more certainty and better value when choosing private accommodation. Some key assurances include:
+
+* Rent increases imposed on continuing tenancies can be no more than that year’s inflation rate+ 2%. Rent increases may only take place every 12 months.
+* Landlords must provide a clear procedure for student renters to report problems
+* The rights and responsibilities of tenants must be clearly outlined in the contract (See Protecting the Rights of Student Renters for a fuller list of potential changes).
+
+## Mental health 
+
+Develop and adopt a comprehensive framework on mental health, that embeds mental wellness in all campus activities (see separate paper on this issue).
+
+## Wellbeing 
+
+Conduct an annual snapshot survey that focuses specifically on graduate student wellbeing, with a commitment to honoring the main findings.
+
+# Recommendations for the GSS 
+
+<p class="quote-main-color">The Graduate Student Society should...</p>
+
+* Follow the roadmap provided by the GSS survey, to identify areas for advocacy. Re-visiting the current campaigns and aligning them with the high concern areas will provide students a sense of investment; while for the GSS team it enables monitoring of how our actions are driving change as well as addressing the most important students face.
+
+* Institutionalizing the GSS Survey through the university while making it bi-annual, having a stronger focus on graduate students’ well-being and happiness levels. Better communication of findings and actions taken, will help keep students engaged with our advocacy work. 

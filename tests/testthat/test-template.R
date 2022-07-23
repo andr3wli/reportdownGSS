@@ -15,3 +15,7 @@ expect_knit <- function(template){
 test_that("report_light", {
   expect_knit("report_light")
 })
+
+test_that("report_darkblue", {
+  expect_knit("report_darkblue")
+})
