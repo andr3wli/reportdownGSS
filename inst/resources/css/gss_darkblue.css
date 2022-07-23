@@ -33,31 +33,28 @@ h1, h2, h3, h4 {
 h1.title, h1.subtitle, h2.author, h2.date {
     color: #ffffff;
     position: relative;
+    text-align: center;
     top: 200px;
 }
 
 h1.title {
   font-size: 45pt;
   font-weight: 900;
-  text-align: center;
 }
 
 h1.subtitle {
   font-size: 25pt;
   font-weight: bolder;
-  text-align: center;
   border-bottom:2px solid #ffffff;
   padding-bottom:3px;
 }
 
 h2.author {
   font-size: 15pt;
-  text-align: center;
 }
 
 h2.date {
   font-size: 15pt;
-  text-align: center;
 }
 
 /* regular headers */
@@ -154,7 +151,6 @@ aside > blockquote > p {
 }
 
 /* summary by statistics (9% of respondants were statisfied with cost of living) */
-
 .summary-number::first-letter {
   color: var(--second-color);
   font-size: 35pt;
