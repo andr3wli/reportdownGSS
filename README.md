@@ -51,6 +51,15 @@ all the features.
 
 ![Light theme example](man/figures/gss_light_example.png)
 
+### Light theme - Version 2 (`reportdownGSS::reportd_light_v2`)
+
+The light theme was created to look exactly like
+[this](https://gss.ubc.ca/wp-content/uploads/2019/10/GSS.SupervisoryRelationsReport2019-FINAL.pdf)
+report. The skeleton template contains instructions and descriptions for
+all the features.
+
+![Light theme V2 example](man/figures/gss_light_v2_example.png)
+
 ### Dark theme - green and blue (`reportdownGSS::reportd_darkblue`)
 
 The dark theme green and blue was created to look similar to
