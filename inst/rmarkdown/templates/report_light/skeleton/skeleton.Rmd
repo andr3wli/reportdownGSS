@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Welcome! This is the skeleton for the `reportdownGSS` light theme template. This was created for future UBC Graduate Student Society Survey Coordinators. My name is [Andrew Li](https://www.andrewcli.com) and I am the the Survey Coordinator since January 2022. I noticed that the reports generated had an were either really ugly but reproducible (RMarkdown), ugly and not reproducible (Qualtrics reports), or pretty and not reproducible (design software). As such, this package aims to resolve this issue. Using R and CSS, you are now able to produce aesthetically pleasing reports that are reproducible as well! 
 
-You only need familiarty with R and RMarkdown to use this package/template. No CSS or design knowledge needed, but basic knowledge of HTML may be handy. Happy knitting 😀!
+You only need familiarity with R and RMarkdown to use this package/template. No CSS or design knowledge needed, but basic knowledge of HTML may be handy. Happy knitting 😀!
 
 In this template, I will demonstrate all the features this template has to offer. 
 
