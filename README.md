@@ -51,6 +51,15 @@ all the features.
 
 ![Light theme example](man/figures/gss_light_example.png)
 
+### Dark theme - green and blue (`reportdownGSS::reportd_darkblue`)
+
+The dark theme green and blue was created to look similar to
+[this](https://gss.ubc.ca/wp-content/uploads/2019/10/GSSStudentSurveySummary2018.pdf)
+report. Again, the skeleton contains instructions and descriptions for
+all the features.
+
+![Light theme example](man/figures/gss_darkblue_example.png)
+
 ### Contributing
 
 Future GSS Survey Coordinators/Data Analysts please do not hesitate to

@@ -13,3 +13,4 @@ man/figures/._gss_light_example.png
 inst/resources/css/._gss_darkblue.css
 inst/resources/img/._gss_blue_green.svg
 tests/testthat/rendered/
+man/figures/._gss_darkblue_example.png
