@@ -1,4 +1,4 @@
-#' Function for green and blue dark theme for GSS reports in the form of a RMarkdown file.
+#' Creates a dark theme, green and blue as main colors in the form of a RMarkdown file
 #'
 #' @param ... Arguments passed on to pagedown::html_paged
 #'

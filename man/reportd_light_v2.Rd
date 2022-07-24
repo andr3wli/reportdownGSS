@@ -2,7 +2,7 @@
 % Please edit documentation in R/reportd_light_v2.R
 \name{reportd_light_v2}
 \alias{reportd_light_v2}
-\title{Creates another light theme for GSS reports in the form a a RMarkdown file}
+\title{Creates a light theme for GSS reports in the form of a RMarkdown file}
 \usage{
 reportd_light_v2(...)
 }
@@ -13,5 +13,5 @@ reportd_light_v2(...)
 Pagedown template that was designed for creating reports for the Graduate Student Society at UBC.
 }
 \description{
-Creates another light theme for GSS reports in the form a a RMarkdown file
+Creates a light theme for GSS reports in the form of a RMarkdown file
 }

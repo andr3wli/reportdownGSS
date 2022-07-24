@@ -1,4 +1,4 @@
-#' Function for the light theme for GSS reports in the form of a RMarkdown file.
+#' Creates a light theme for GSS reports in the form of a RMarkdown file.
 #'
 #' @param ... Arguments passed on to pagedown::html_paged
 #'
