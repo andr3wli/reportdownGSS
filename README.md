@@ -64,10 +64,19 @@ all the features.
 
 The dark theme green and blue was created to look similar to
 [this](https://gss.ubc.ca/wp-content/uploads/2019/10/GSSStudentSurveySummary2018.pdf)
-report. Again, the skeleton contains instructions and descriptions for
-all the features.
+report. The skeleton contains instructions and descriptions for all the
+features.
 
 ![Light theme example](man/figures/gss_darkblue_example.png)
+
+### Dark theme - green and pink (`reportdownGSS::reportd_darkpink`)
+
+The dark theme green and blue was created to look similar to
+[this](https://gss.ubc.ca/wp-content/uploads/2019/10/GSS-Mental-Health-Advocacyrev.pdf)
+report. The skeleton contains instructions and descriptions for all the
+features.
+
+![Light theme example](man/figures/gss_darkpink_example.png)
 
 ### Contributing
 
