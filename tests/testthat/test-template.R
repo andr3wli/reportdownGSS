@@ -23,3 +23,7 @@ test_that("report_darkblue", {
 test_that("report_light_v2", {
   expect_knit("report_light_v2")
 })
+
+test_that("report_darkpink", {
+  expect_knit("report_darkpink")
+})
